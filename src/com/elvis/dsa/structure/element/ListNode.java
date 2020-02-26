@@ -1,4 +1,4 @@
-package com.elvis.dsa.structure;
+package com.elvis.dsa.structure.element;
 
 public class ListNode<E> extends Node<E> {
     public E next;

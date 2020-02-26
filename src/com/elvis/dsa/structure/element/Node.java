@@ -1,4 +1,4 @@
-package com.elvis.dsa.structure;
+package com.elvis.dsa.structure.element;
 
 public abstract class Node<E> {
     public E value;

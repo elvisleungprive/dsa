@@ -1,4 +1,4 @@
-package com.elvis.dsa.structure;
+package com.elvis.dsa.structure.element;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
