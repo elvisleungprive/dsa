@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b931ae3-6d2f-4f12-b9ec-1fe6b0e7dea3" name="Default Changelist" comment="first commit - hello world" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YLoEHmdmsse0zludHBUQ8Ni904" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.elvis.dsa.Main" />
+      <module name="DSA" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b931ae3-6d2f-4f12-b9ec-1fe6b0e7dea3" name="Default Changelist" comment="" />
+      <created>1582731122563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582731122563</updated>
+      <workItem from="1582731129140" duration="826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="234" y="23" key="CommitChangelistDialog2" timestamp="1582732120447">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="234" y="23" key="CommitChangelistDialog2/0.23.1280.723@0.23.1280.723" timestamp="1582732120447" />
+    <state width="1218" height="166" key="GridCell.Tab.0.bottom" timestamp="1582731838736">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state width="1218" height="166" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1582731838736" />
+    <state width="1218" height="166" key="GridCell.Tab.0.center" timestamp="1582731838735">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state width="1218" height="166" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1582731838735" />
+    <state width="1218" height="166" key="GridCell.Tab.0.left" timestamp="1582731838734">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state width="1218" height="166" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1582731838734" />
+    <state width="1218" height="166" key="GridCell.Tab.0.right" timestamp="1582731838735">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state width="1218" height="166" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1582731838735" />
+    <state x="319" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1582731133433">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="319" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.723@0.23.1280.723" timestamp="1582731133433" />
+    <state x="305" y="70" width="670" height="676" key="search.everywhere.popup" timestamp="1582731823973">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="305" y="70" width="670" height="676" key="search.everywhere.popup/0.23.1280.723@0.23.1280.723" timestamp="1582731823973" />
+  </component>
+</project>
