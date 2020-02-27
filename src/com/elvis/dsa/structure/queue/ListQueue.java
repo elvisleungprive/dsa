@@ -1,4 +1,4 @@
 package com.elvis.dsa.structure.queue;
 
-public class ListQueue implements Queue {
+public class ListQueue implements IQueue {
 }

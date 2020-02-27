@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b931ae3-6d2f-4f12-b9ec-1fe6b0e7dea3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/ListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/dsa/algorithm/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/dsa/algorithm/sorting/ISortingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/elvis/dsa/algorithm/sorting/SortingAlgorithmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/elvis/dsa/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/elvis/dsa/structure/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/element/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/elvis/dsa/structure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/element/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/elvis/dsa/structure/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/elvis/dsa/structure/element/ListNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/ListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/ListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elvis/dsa/structure/queue/IQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -65,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.elvis.dsa.algorithm.sorting" />
       <recent name="com.elvis.dsa.structure" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -78,24 +78,8 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListNodeTest">
+  <component name="RunManager" selected="JUnit.SortingAlgorithmTest.bubbleSortTest">
     <configuration name="All in DSA (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in DSA (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in DSA (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -134,20 +118,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.dsa.algorithm.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elvis.dsa.algorithm.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.elvis.dsa.algorithm.sorting.SortingAlgorithmTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingAlgorithmTest.bubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.dsa.algorithm.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elvis.dsa.algorithm.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.elvis.dsa.algorithm.sorting.SortingAlgorithmTest" />
+      <option name="METHOD_NAME" value="bubbleSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.All in DSA (4)" />
-      <item itemvalue="JUnit.All in DSA (5)" />
       <item itemvalue="JUnit.All in DSA (1)" />
       <item itemvalue="JUnit.ListNodeTest.hasNext" />
       <item itemvalue="JUnit.ListNodeTest" />
+      <item itemvalue="JUnit.SortingAlgorithmTest" />
+      <item itemvalue="JUnit.SortingAlgorithmTest.bubbleSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortingAlgorithmTest.bubbleSortTest" />
+        <item itemvalue="JUnit.SortingAlgorithmTest" />
         <item itemvalue="JUnit.ListNodeTest" />
         <item itemvalue="JUnit.ListNodeTest.hasNext" />
         <item itemvalue="JUnit.All in DSA (1)" />
-        <item itemvalue="JUnit.All in DSA (5)" />
-        <item itemvalue="JUnit.All in DSA (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582731122563</updated>
-      <workItem from="1582731129140" duration="5741000" />
+      <workItem from="1582731129140" duration="9222000" />
     </task>
     <task id="LOCAL-00001" summary="first commit - hello world">
       <created>1582732219762</created>
@@ -177,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582737045525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added Queue interface">
+      <created>1582737887067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582737887067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit - hello world" />
     <MESSAGE value="added first test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added first test class" />
+    <MESSAGE value="added Queue interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Queue interface" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -195,10 +218,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1582734949448" />
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1582735693699">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582818698233">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1582735693699" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1582818698233" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1582818169816">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1582818169816" />
     <state x="378" y="187" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582737328723">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -207,35 +234,39 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1582737372926" />
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1582737854333">
+    <state x="401" y="63" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582817770884">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582737854333" />
+    <state x="401" y="63" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1582817770884" />
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1582737886610">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582737886610" />
     <state x="234" y="23" key="CommitChangelistDialog2/0.23.1280.723@0.23.1280.723" timestamp="1582732219286" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1582737804234">
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1582821749177">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582737804234" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582821749177" />
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1582735579149" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1582737804232">
+    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1582821749176">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582737804232" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582821749176" />
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1582735579147" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1582737804232">
+    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1582821749175">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582737804232" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582821749175" />
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1582735579147" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1582737804233">
+    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1582821749177">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582737804233" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582821749177" />
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1582735579148" />
-    <state x="240" y="112" key="Vcs.Push.Dialog.v2" timestamp="1582737053448">
+    <state x="240" y="112" key="Vcs.Push.Dialog.v2" timestamp="1582737894109">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="112" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1582737053448" />
+    <state x="240" y="112" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1582737894109" />
     <state x="240" y="124" key="Vcs.Push.Dialog.v2/0.23.1280.723@0.23.1280.723" timestamp="1582732282987" />
     <state x="435" y="189" key="chooseDestDirectoryDialog" timestamp="1582735513375">
       <screen x="0" y="0" width="1280" height="800" />
@@ -249,17 +280,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="352" y="300" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1582735080493" />
-    <state x="417" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582735792806">
+    <state x="417" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582818323925">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="417" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1582735792806" />
+    <state x="417" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1582818323925" />
     <state x="34" y="22" key="new project wizard" timestamp="1582734773234">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="34" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1582734773234" />
-    <state x="305" y="70" width="670" height="676" key="search.everywhere.popup" timestamp="1582731823973">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="305" y="52" width="670" height="748" key="search.everywhere.popup" timestamp="1582821553858">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="305" y="52" width="670" height="748" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582821553858" />
     <state x="305" y="70" width="670" height="676" key="search.everywhere.popup/0.23.1280.723@0.23.1280.723" timestamp="1582731823973" />
   </component>
 </project>

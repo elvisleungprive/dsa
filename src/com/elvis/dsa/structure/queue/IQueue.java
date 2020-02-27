@@ -1,6 +1,6 @@
 package com.elvis.dsa.structure.queue;
 
-public interface Queue {
+public interface IQueue {
     //TODO: Enqueue: Add element to end of queue
     //TODO: Dequeue: Remove element from front of queue
     //TODO: IsEmpty: Check if queue is empty
