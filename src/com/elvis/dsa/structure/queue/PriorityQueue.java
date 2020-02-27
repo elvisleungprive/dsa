@@ -1,4 +1,4 @@
 package com.elvis.dsa.structure.queue;
 
-public class ArrayQueue {
+public class PriorityQueue {
 }
