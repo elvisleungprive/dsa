@@ -94,19 +94,17 @@ class BinarySearchTreeTest {
         bst.delete(6);
         assertEquals("8, 3, 1, 4, 7, 10, 14, ", bst.preorderTraverse());
         bst.delete(10);
-        assertEquals("7, 3, 1, 6, 4, 14, ", bst.preorderTraverse());
-        bst.delete(6);
-        assertEquals("7, 3, 1, 4, 14, ", bst.preorderTraverse());
+        assertEquals("8, 3, 1, 4, 7, 14, ", bst.preorderTraverse());
         bst.delete(3);
-        assertEquals("7, 1, 4, 14, ", bst.preorderTraverse());
+        assertEquals("8, 7, 1, 4, 14, ", bst.preorderTraverse());
         bst.delete(14);
-        assertEquals("7, 1, 4, ", bst.preorderTraverse());
+        assertEquals("8, 7, 1, 4, ", bst.preorderTraverse());
         bst.delete(1);
-        assertEquals("7, 4, 14, ", bst.preorderTraverse());
+        assertEquals("8, 7, 4, ", bst.preorderTraverse());
         bst.delete(7);
-        assertEquals("1, 14, ", bst.preorderTraverse());
-        bst.delete(14);
-        assertEquals("1, ", bst.preorderTraverse());
+        assertEquals("8, 4, ", bst.preorderTraverse());
+        bst.delete(4);
+        assertEquals("8, ", bst.preorderTraverse());
     }
 
     @Test

@@ -140,13 +140,26 @@ public class BinarySearchTree {
                     } else {
                         // delete node which is not root and has child nodes
                         if (ptr.value > prev.value) {
-                            prev.right = deleteMin(ptr);
-                            prev.right.right = ptr.right;
-                            prev.right.left = ptr.left;
+
+                            if (ptr.left == null) {
+                                prev.right = ptr.right;
+                            } else {
+                                prev.right = deleteMin(ptr);
+                                prev.right.right = ptr.right;
+                                prev.right.left = ptr.left;
+                            }
                         } else if (ptr.value < prev.value) {
-                            prev.left = deleteMax(ptr);
-                            prev.left.right = ptr.right;
-                            prev.left.left = ptr.left;
+
+                            if (ptr.right == null) {
+                                prev.left = ptr.left;
+
+                            } else {
+                                prev.left = deleteMax(ptr);
+                                prev.left.right = ptr.right;
+                                prev.left.left = ptr.left;
+
+                            }
+
                         }
                     }
                     return ptr;
