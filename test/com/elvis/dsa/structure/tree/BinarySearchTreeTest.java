@@ -74,12 +74,58 @@ class BinarySearchTreeTest {
         bst.delete(8);
         assertEquals(3, bst.findMin());
         assertEquals(10, bst.findMax());
-        assertEquals(3, bst.root.value);
+        assertEquals(7, bst.root.value);
     }
 
-    // TODO: test preorder traversal
-    // TODO: test postorder traversal
-    // TODO: test inorder traversal
+    @Test
+    void deleteRootAndPreorderTest() {
+        bst.delete(8);
+        assertEquals("7, 3, 1, 6, 4, 10, 14, ", bst.preorderTraverse());
+    }
+
+    @Test
+    void deleteLeafAndPreorderTest2() {
+        bst.delete(1);
+        assertEquals("8, 3, 6, 4, 7, 10, 14, ", bst.preorderTraverse());
+    }
+
+    @Test
+    void deleteMiddleAndPreorderTest3() {
+        bst.delete(6);
+        assertEquals("8, 3, 1, 4, 7, 10, 14, ", bst.preorderTraverse());
+        bst.delete(10);
+        assertEquals("7, 3, 1, 6, 4, 14, ", bst.preorderTraverse());
+        bst.delete(6);
+        assertEquals("7, 3, 1, 4, 14, ", bst.preorderTraverse());
+        bst.delete(3);
+        assertEquals("7, 1, 4, 14, ", bst.preorderTraverse());
+        bst.delete(14);
+        assertEquals("7, 1, 4, ", bst.preorderTraverse());
+        bst.delete(1);
+        assertEquals("7, 4, 14, ", bst.preorderTraverse());
+        bst.delete(7);
+        assertEquals("1, 14, ", bst.preorderTraverse());
+        bst.delete(14);
+        assertEquals("1, ", bst.preorderTraverse());
+    }
+
+    @Test
+    void preorderTest() {
+        String expected = "8, 3, 1, 6, 4, 7, 10, 14, ";
+        assertEquals(expected, bst.preorderTraverse());
+    }
+
+    @Test
+    void inorderTest() {
+        String expected = "1, 3, 4, 6, 7, 8, 10, 14, ";
+        assertEquals(expected, bst.inorderTraverse());
+    }
+
+    @Test
+    void postorderTest() {
+        String expected = "1, 4, 7, 6, 3, 14, 10, 8, ";
+        assertEquals(expected, bst.postorderTraverse());
+    }
 
     // @Test
     void prettyPrintTree() {
