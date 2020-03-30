@@ -22,6 +22,9 @@ class SortingAlgorithmTest {
          */
         for (ISortingAlgorithm sortAlgo : sortAlgos) {
             int[] actualOutArr = sortAlgo.sort(inArr.clone());
+            
+            // TODO: new SortingManager(algorithm).sort(input)
+                
             System.out.println(String.format("Strategy = %s", sortAlgo.getClass().getSimpleName()));
             System.out.println("Input: " + Arrays.toString(inArr));
             System.out.println("Sorted: " + Arrays.toString(actualOutArr) + "\n");
